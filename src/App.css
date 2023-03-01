@@ -1,0 +1,53 @@
+.hola {
+  @apply bg-red-500;
+}
+.contenedor {
+  @apply px-8;
+}
+.nav-link {
+  @apply py-4 text-white font-bold text-center hover:bg-white hover:text-green-main md:py-2 md:text-lg lg:text-2xl lg:py-5;
+}
+.icons-link {
+  @apply text-[rgba(255,255,255,.5)] hover:text-white text-2xl md:text-sm lg:text-xl;
+}
+.section-item {
+  @apply contenedor py-10 bg-white-main;
+}
+.title-style {
+  @apply text-title-color text-2xl font-semibold cel:text-lg w-2/3 md:text-3xl;
+}
+.parraf-style {
+  @apply text-content-color  mt-5 cel:text-[10px] md:text-2xl;
+}
+/* Section Skills style */
+.container-skills {
+  @apply flex items-center gap-2;
+}
+.icons-skills-styles {
+  @apply text-2xl text-white bg-green-main rounded-full p-2 cel:text-xs md:text-3xl;
+}
+
+.skills-style {
+  @apply text-content-color cel:text-[10px] md:text-xl;
+}
+
+/* Section Accomplishments */
+.subtitle-style {
+  @apply text-title-color text-base font-semibold my-5 cel:text-sm md:text-2xl;
+}
+
+/* Section Contact */
+.input-container {
+  @apply h-10;
+}
+.input-style {
+  @apply h-full w-full border-2 border-gray-200 rounded-md px-4 focus:text-content-color focus:border-green-main focus:outline-none;
+}
+.button-style {
+  @apply text-white-main font-semibold text-[10px] py-2 rounded-md md:text-xl;
+}
+
+/* Footer Styles */
+.container-footer {
+  @apply grid grid-cols-1 text-content-color text-[10px] justify-items-center gap-1 mb-10 cel:mb-2 bg-white-main cel:flex cel:justify-center cel:text-[8px] cel:text-gray-400 lg:text-lg;
+}
